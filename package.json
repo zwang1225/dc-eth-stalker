@@ -1,0 +1,24 @@
+{
+  "name": "dc-eth-stalker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwang1225/dc-eth-stalker.git"
+  },
+  "author": "Spark Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwang1225/dc-eth-stalker/issues"
+  },
+  "homepage": "https://github.com/zwang1225/dc-eth-stalker#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1"
+  }
+}
