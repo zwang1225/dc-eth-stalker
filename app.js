@@ -1,5 +1,6 @@
 const express = require("express");
-const startDC = require("./untils/discord.js");
+const {startDiscordBot} = require("./untils/discord.js");
+const {schedulerScaner} = require("./untils/scheduler.js")
 const app = express();
 const port = 3000;
 
@@ -8,6 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  startDC();
+  startDiscordBot();
+  schedulerScaner();
   console.log(`Example app listening at http://localhost:${port}`);
 });
